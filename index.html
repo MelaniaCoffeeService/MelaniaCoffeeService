@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MelaniaCoffeeService</title>
+    <title>Videoclip Responsiv</title>
     <style>
         body {
             margin: 0;
+            font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
             background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .instructions {
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .video-container {
             width: 90%;
             max-width: 1200px;
             height: auto;
+            margin: 20px 0;
         }
 
         video {
@@ -30,9 +44,19 @@
     </style>
 </head>
 <body>
+    <div class="instructions">
+        <h1>Bine ai venit!</h1>
+        <p>Dacă aveti probleme cu tranzacția cu cardul urmariti videoclipul scurt de mai jos si urmati instructiunile.</p>
+        <p><strong>Urmați acești pași:</strong></p>
+            <li>Tasteaza <strong>codul produsului</strong> pe care îl doriți.</li>
+            <li>Pe terminalul pos va apărea suma de plată.</li>
+            <li>Apropiați cardul sau telefonul și ar trebuii ca tranzacția să fie finalizată.</li>
+        <p><strong>Dacă terminalul pos nu funcționează contactati numarul de telefon: 0722666292</strong></p>
+        <p>Muțumim pentru întelegere!</p>
+    </div>
     <div class="video-container">
         <video controls>
-            <source src="IMG_2559.MP4" type="video/mp4">
+            <source src="videoclip.mp4" type="video/mp4">
             Browserul tău nu suportă elementul video.
         </video>
     </div>
